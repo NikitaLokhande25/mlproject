@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logging
 
 # Configure basic logging so the message actually shows up in your console
 logging.basicConfig(level=logging.INFO)
